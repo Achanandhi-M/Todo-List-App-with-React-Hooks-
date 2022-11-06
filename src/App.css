@@ -1,23 +1,77 @@
 .App{
+  color: white;
+  font-size: 50px;
+  margin: auto;
+}
+
+.title{
+  margin: 0%;
   text-align: center;
+  font-family: fantasy;
+  letter-spacing: 15px;
+  word-spacing: 30px;
 }
 
 input{
-  padding: 4px;
-  margin-right:8px;
+  padding: 0% 1.5%;
+  width: 50%;
+  height: 65px;
+  font-size: 30px;
+  border-radius: 30px;
+  margin: 0% 2% 0% 20%;
 }
+
+input:focus{
+  border-color: red 10px solid;
+  background-color: rgb(31, 30, 30);
+  color: white;
+}
+
+.addButton{
+  width: 8%;
+  height: 65px;
+  border-radius: 30px;
+  border: 4px white solid;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: rgb(25, 25, 54);
+  color: white;
+}
+
+.addButton:hover{
+  background-color: white;
+  color: black;
+}
+
+.addButton:active{
+  background-color: rgb(25, 25, 54);
+  color: white;
+}
+
 ul{
   list-style: none;
+  margin-left: 20%;
+  border: 2px solid rgb(21, 255, 0);
+  padding: 1% 1%;
+  width: 61%;
+  font-family: sans-serif;
 }
+
 li{
-  margin:12px 0;
+  border: 2px solid black;
+  margin: 2px;
 }
+
 .delete-btn{
-  font-size: 10px;
-  margin-left: 8px;
-  border:none;
-  color:white;
+  font-size: 20px;
   border-radius: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  float: right;
+  height: 50px;
+  width: 50px;
+  margin-top: 4px;
+}
+
+.delete-btn:hover{
+  border: 4px solid red;
+  background-color: rgb(250, 250, 73);
 }
